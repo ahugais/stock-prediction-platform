@@ -1,0 +1,20 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Env variables
+.env
+
+# Data (we don’t want huge files in GitHub)
+data/raw/
+data/processed/
+
+# Generated outputs
+reports/runs/
+reports/figures/
+
+# Mac junk
+.DS_Store
