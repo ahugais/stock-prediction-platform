@@ -5,6 +5,9 @@
 __pycache__/
 *.pyc
 
+# Packaging
+*.egg-info/
+
 # Env variables
 .env
 

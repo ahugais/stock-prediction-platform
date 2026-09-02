@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stock-forecast"
+version = "0.1.0"
+description = "Modular ML pipeline for next-day stock return forecasting, evaluation, and reporting."
+requires-python = ">=3.10"
+dependencies = [
+    "yfinance>=0.2",
+    "pandas>=2.0",
+    "numpy>=1.26",
+    "scikit-learn>=1.3",
+    "plotly>=5.20",
+    "typer>=0.12",
+    "rich>=13.0",
+    "streamlit>=1.30",
+]
+
+[project.scripts]
+stock-forecast = "stock_forecast.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
