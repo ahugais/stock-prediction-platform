@@ -95,7 +95,3 @@ tests/
 ```bash
 pytest
 ```
-
-## What I'd add next
-
-Comparing a few models side by side on the same chart, running predictions across a batch of tickers at once, tuning hyperparameters instead of hardcoding them, maybe an XGBoost or LSTM model, wrapping it as a REST API, packaging it with Docker, and eventually deploying the site somewhere with a real URL.
