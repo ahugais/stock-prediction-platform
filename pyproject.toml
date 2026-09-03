@@ -18,6 +18,9 @@ dependencies = [
     "streamlit>=1.30",
 ]
 
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
 [project.scripts]
 stock-forecast = "stock_forecast.cli:app"
 
